@@ -32,6 +32,7 @@ public enum City {
 	}
 	public void setCityCode(String cityCode) {
 		this.cityCode = cityCode;
+		
 	}
 	private City(String cityCode) {
 		this.cityCode = cityCode;
